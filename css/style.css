@@ -34,7 +34,7 @@ Topo
 /****************************************
 Barra de navegação 
 */
-ul {
+ul {/*Formatação padrão*/
     margin: 0;
     padding: 0;
     list-style: none;
@@ -87,7 +87,7 @@ Index - Layout com três colunas
     float: left;
     margin: 0 0 20px -750px; /*Foi utilizado padding para o posicionamento de colunas para deixar uma ordem que facilite a leitura do site por leitores de tela*/
 }
-#primario { /*valor padrão*/
+#primario { /*Formatação padrão*/
     width: 270px;
     float: left;
     margin: 0 0 20px 195px; 
@@ -123,6 +123,40 @@ h2 {
     background: #fff;
     padding: 5px;
     margin-top: 5px;
+}
+
+/*Menus laterais*/
+#lateral ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+#lateral ul a:hover {
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+
+/*Formulários*/
+label {
+    display: block;
+    cursor: pointer;
+}
+input {/*Formatação padrão*/
+    padding: 5px;
+    width: 145px;
+    font-size: 0.9em;
+    background-color: #fff;
+}
+input.submit {
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
 }
 
 /********************************
